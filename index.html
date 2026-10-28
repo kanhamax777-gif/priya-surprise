@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#2b101b">
+<title>For Priya ♡</title>
+<style>
+:root{--bg:#180d14;--rose:#f3a7bb;--cream:#fff3ed;--muted:#d8b9c2;--card:#2b1722}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at top,#54283d 0,#24121c 42%,#120a10 100%);color:var(--cream);font-family:Georgia,'Times New Roman',serif;min-height:100vh}
+main{width:min(760px,100%);margin:auto;padding:26px 18px 60px}
+.hero{text-align:center;padding:52px 16px 34px}
+.eyebrow{letter-spacing:.22em;text-transform:uppercase;color:var(--rose);font:11px Arial,sans-serif}
+h1{font-size:clamp(2.6rem,10vw,5rem);font-weight:normal;line-height:1.03;margin:18px 0}
+h1 span{color:var(--rose);font-style:italic}
+.subtitle{color:var(--muted);font-size:1.05rem;line-height:1.7}
+.heart{font-size:32px;animation:pulse 2s infinite;display:inline-block}
+@keyframes pulse{50%{transform:scale(1.14)}}
+button,.button{background:var(--rose);color:#321321;border:0;border-radius:999px;padding:14px 22px;font-weight:bold;font-size:15px;cursor:pointer;text-decoration:none;display:inline-block}
+button:focus,.button:focus{outline:2px solid white;outline-offset:3px}
+section{margin:22px 0;background:#ffffff0b;border:1px solid #f3a7bb30;border-radius:22px;padding:24px}
+h2{font-size:1.65rem;font-weight:normal;margin:0 0 14px;color:#ffd9e3}
+p{font-size:1.05rem;line-height:1.85;color:#f8e8eb}
+.small{font:13px Arial,sans-serif;color:var(--muted);line-height:1.7}
+.hidden{display:none!important}
+.letter{white-space:pre-line}
+.media{width:100%;border-radius:14px;display:block;margin:12px 0;background:#10070c}
+.photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.photo-grid img{width:100%;height:180px;object-fit:cover;border-radius:12px;background:#39212e}
+footer{text-align:center;color:var(--muted);font-size:13px;padding:30px 8px}
+hr{border:0;border-top:1px solid #f3a7bb25;margin:22px 0}
+@media(max-width:460px){section{padding:19px}.photo-grid img{height:140px}}
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <div class="eyebrow">A little piece of my heart</div>
+    <div class="heart">♡</div>
+    <h1>For my <span>Priya</span></h1>
+    <p class="subtitle">From your Doraemon, with all the love I sometimes struggle to put into words. 💗</p>
+    <p class="small">19 June 2022 · Our story, still being written</p>
+    <button id="openBtn">Open my heart ♡</button>
+  </header>
+
+  <div id="surprise" class="hidden">
+    <section>
+      <h2>First, listen to me… 🎙️</h2>
+      <p class="small">I recorded this just for you. Find a quiet little moment, press play, and listen whenever you feel like it.</p>
+      <audio class="media" controls preload="metadata">
+        <source src="assets/voice-message.mp3" type="audio/mpeg">
+        Your browser doesn't support audio playback.
+      </audio>
+      <p class="small">Replace <b>assets/voice-message.mp3</b> with your own recording file.</p>
+    </section>
+
+    <section>
+      <h2>Our little memories 📷</h2>
+      <div class="photo-grid">
+        <img src="assets/photo1.jpg" alt="A favourite memory together">
+        <img src="assets/photo2.jpg" alt="Another favourite memory">
+      </div>
+      <p class="small">Replace these two sample filenames with your own photos. Choose memories you both feel comfortable sharing.</p>
+    </section>
+
+    <section>
+      <h2>Something I want you to know 💌</h2>
+      <div class="letter">
+Meri pyaari Priya, meri bubu, meri jaan… 🥹❤️
+
+Since 19 June 2022, you've become such a special part of my life. I love our silly conversations, your smile, your little habits, and the way ordinary moments feel special when I share them with you.
+
+I know love isn't only about saying beautiful things. It's about listening, being patient, respecting each other's feelings, and showing up consistently. I want to keep learning how to love you better—not by asking you to be a certain way, but by understanding what makes you feel loved and safe.
+
+I miss our closeness, our laughter, our flirting, and the little moments that are ours. I hope we keep finding our way toward each other at a pace that feels right for both of us, with honesty, affection, and no pressure. Your feelings matter to me, and you never have to prove your love.
+
+I want more memories with you: random calls, silly pictures, deep talks, warm hugs, and all the ordinary days that become beautiful because we're sharing them. Thank you for being you, Priya. I choose to keep showing my love through my actions, one day at a time.
+
+If you ever need a reminder, here's one: you are loved, you are valued, and you don't have to be perfect to be precious to me.
+
+I love you, meri Shizuka. Always your Doraemon. 💙❤️
+      </div>
+    </section>
+
+    <section>
+      <h2>A little video for you 🎞️</h2>
+      <video class="media" controls playsinline preload="metadata" poster="assets/photo1.jpg">
+        <source src="assets/love-video.mp4" type="video/mp4">
+        Your browser doesn't support video playback.
+      </video>
+      <p class="small">Add your edited video as <b>assets/love-video.mp4</b>. You can also leave this section out if you prefer the voice recording and photos.</p>
+    </section>
+
+    <section style="text-align:center">
+      <div class="heart">♡</div>
+      <h2>One last thing, my love</h2>
+      <p>We don't need to have everything figured out today. I just hope we keep choosing honesty, kindness, and little moments of happiness together. 🫂💗</p>
+      <p class="small">Made with love, just for Priya.</p>
+    </section>
+  </div>
+  <footer>For Priya ♡ A small reminder that you are loved.</footer>
+</main>
+<script>
+document.getElementById('openBtn').addEventListener('click',function(){
+  document.getElementById('surprise').classList.remove('hidden');
+  this.textContent='My heart is open ♡';
+  this.disabled=true;
+  document.getElementById('surprise').scrollIntoView({behavior:'smooth'});
+});
+</script>
+</body>
+</html>
